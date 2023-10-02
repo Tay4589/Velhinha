@@ -1,0 +1,52 @@
+:root {
+    --cor-fundo: rgb(162, 173, 235);
+    --cor-fundo-dark: rgb(73, 93, 203);
+    --cor-fonte: white;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+}
+
+.container {
+    display: flex;
+    background: var(--cor-fundo);
+    align-items: center;
+    flex-direction: column;
+
+
+
+}
+
+.matriz {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 100%;
+}
+
+.grid {
+    border: 2px solid;
+    min-height: 100px;
+    min-width: 100px;
+    cursor: pointer
+
+}
+
+#reinicia {
+width: 100px;
+height: 50px;
+background: var(--cor-fundo-dark);
+cursor: pointer;
+color: var(--cor-fonte);
+
+
+
+
+}
